@@ -13,7 +13,7 @@ var Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/to
     iconSize: [50,40]
   });
   
-$.getJSON("https://opendata.arcgis.com/datasets/b3f84bff1c514484be7f4d65098f9372_0.geojson",function(data){
+$.getJSON("https://services5.arcgis.com/sjP4Ugu5s0dZWLjd/arcgis/rest/services/Swarms_Public/FeatureServer",function(data){
   var bugIcon = L.icon({
     iconUrl: '<div>Icons made by <a href="https://cdn2.iconfinder.com/data/icons/spring-outline-6/272/spring-dragonfly-insect_-dragon-lake-fly-bug-512.png',
     iconSize: [50,40]
