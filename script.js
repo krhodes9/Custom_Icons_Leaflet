@@ -20,7 +20,10 @@ var Stamen_Toner = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/
         return marker;
       }
     });
-    var clusters = L.markerClusterGroup();
+    var clusters = L.markerClusterGroup({
+      animate: true,
+      animateAddingMarkers: true
+    });
     clusters.addLayer(locusts);
     map.addLayer(clusters);
 });
