@@ -22,7 +22,7 @@ L.Control.zoomHome = L.Control.extend({
         zoomInTitle: 'Zoom in',
         zoomOutText: '-',
         zoomOutTitle: 'Zoom out',
-        zoomHomeText: 'X',
+        zoomHomeText: '=',
         zoomHomeTitle: 'Zoom home'
     },
 
