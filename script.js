@@ -514,4 +514,6 @@ var geojsonFeature2 = {
     }
   ]
 }
+
 var feat2 = L.geoJSON(geojsonFeature2).addTo(map);
+ /*feat2.bindPopup(geojsonFeature2.features[0].properties.Location).openPopup();*/
