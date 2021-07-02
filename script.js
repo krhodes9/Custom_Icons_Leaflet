@@ -113,7 +113,7 @@ zoomHome.addTo(map);
 });
 
 
-var geojsonFeature2 = {
+/*var geojsonFeature2 = {
   "type": "FeatureCollection",
   "features": [
     {
@@ -513,7 +513,7 @@ var geojsonFeature2 = {
       }
     }
   ]
-}
+}*/
 
 var feat2 = L.geoJSON(geojsonFeature2).addTo(map);
  /*feat2.bindPopup(geojsonFeature2.features[0].properties.Location).openPopup();*/
