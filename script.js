@@ -94,8 +94,9 @@ var zoomHome = new L.Control.zoomHome();
 zoomHome.addTo(map);
   $.getJSON("https://opendata.arcgis.com/datasets/b3f84bff1c514484be7f4d65098f9372_0.geojson",function(data){
     var bugIcon = L.icon({
-      iconUrl: 'https://pics.freeicons.io/uploads/icons/png/16216416241579606331-64.png',
-      iconSize: [60,50]
+        iconSize: [60,50],
+	iconAnchor: [13, 41],
+	iconUrl: 'https://pics.freeicons.io/uploads/icons/png/16216416241579606331-64.png',
     });
     var locusts = L.geoJson(data,{
       pointToLayer: function(feature,latlng){
