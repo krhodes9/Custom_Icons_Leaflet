@@ -96,7 +96,7 @@ zoomHome.addTo(map);
     var bugIcon = L.icon({
         iconSize: [60,50],
 	iconAnchor: [13, 41],
-	iconUrl: 'https://pics.freeicons.io/uploads/icons/png/16216416241579606331-64.png',
+	iconUrl: 'https://pics.freeicons.io/uploads/icons/png/16216416241579606331-64.png'
     });
     var locusts = L.geoJson(data,{
       pointToLayer: function(feature,latlng){
